@@ -1,5 +1,9 @@
+---
 deployment:
-  tasks:
-    - export DEPLOYPATH=/Projeto Pesquisa/src/public_html/
-    - /bin/cp /views/index.html $DEPLOYPATH
-    - /bin/cp /css/style.css $DEPLOYPATH
+      tasks:
+        - export DEPLOYPATH=/home/<username>/public_html  # Add /<app_folder> if required
+        - /bin/cp /src/assets/views/index.html $DEPLOYPATH                 #Copy specific file to destination from root
+        - /bin/cp /src/assets/css/indexStyle.css $DEPLOYPATH   #copy specific file from source sub folder
+        - /bin cp * $DEPLOYPATH                           #copy all from root 
+        - /bin cp /Projeto Pesquisa/* $DEPLOYPATH             #copy all from sub folder root
+        - /bin/cp -r * $DEPLOYPATH                        #copy all recursively to $DEPLOYPATH
