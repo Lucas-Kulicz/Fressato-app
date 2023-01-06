@@ -1,0 +1,5 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/Projeto Pesquisa/src/public_html/
+    - /bin/cp /views/index.html $DEPLOYPATH
+    - /bin/cp /css/style.css $DEPLOYPATH
