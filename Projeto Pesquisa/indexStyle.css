@@ -399,7 +399,7 @@ section {
 
 /* media screen mobile até 400px */
 
-@media (max-width: 425px) {
+@media (max-width: 460px) {
   section {
     max-width: 400px;
     max-width: 500px;
@@ -448,7 +448,7 @@ section {
   }
   .img-background-work {
     margin-top: 1000px;
-    width: 360px;
+    width: 400px;
     height: 820px;
     object-fit: cover;
   }
