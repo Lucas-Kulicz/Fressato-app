@@ -18,7 +18,7 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img class="logo" src="./LogoHeader.png" /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -27,10 +27,10 @@
         </button>
         <div class="collapse navbar-collapse menu" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link text-uppercase" aria-current="page" href="#">Sobre</a>
-            <a class="nav-link text-uppercase" href="#">Serviços</a>
-            <a class="nav-link text-uppercase" href="#">Maquinário</a>
-            <a class="nav-link text-uppercase" href="#">Contato</a>
+            <a class="nav-link text-uppercase" aria-current="page" href="#sobre">Sobre</a>
+            <a class="nav-link text-uppercase" href="#servicos">Serviços</a>
+            <a class="nav-link text-uppercase" href="#maquinario">Maquinário</a>
+            <a class="nav-link text-uppercase" href="#contato">Contato</a>
           </div>
         </div>
       </div>
@@ -53,8 +53,8 @@
         </button>
       </div>
     </section>
-    <section>
-      <div class="container-about">
+    <section id="sobre">
+      <div class="container-about" >
         <img src="./maquinarioImagemHomem.jpg" class="img-background-about" alt="Agua" />
         <div class="container">
           <h2 class="text-organizer-about-o fw-bolder text-uppercase">
@@ -85,7 +85,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section id="servicos">
       <img src="./imagemBolhas.png" class="img-background-work" alt="Agua" />
       <div class="container-work">
         <h2 class="text-organizer-work fw-bold">Serviços</h2>
@@ -104,7 +104,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section id="maquinario">
       <h3 class="text-organizer-machine fw-bolder">Nosso máquinário</h3>
       <div class="container-machine">
         <div class="card border border-white">
@@ -135,7 +135,7 @@
         </div>
       </div>
     </section>
-    <section class="container-guest">
+    <section class="container-guest" id="contato">
       <div>
         <div class="map-guest">
           <iframe
@@ -176,9 +176,9 @@
   <footer class="container-footer">
     <img src="./LogoHeaderBranca.png" class="logo-img" alt="">
     <div class="container-info">
-      <p><i class="fa-solid fa-envelope"></i>fressatopocoartesianos@gmail.com</p>
-      <p><i class="fa-solid fa-phone"></i>(41) 99804-9907</p>
-      <p><i class="fa-solid fa-location-dot"></i>R. Graciliano Ramos, 591 <br /> Guarani, Colombo</p>
+      <p><i class="fa-solid fa-envelope px-3"></i>fressatopocoartesianos@gmail.com</p>
+      <p><i class="fa-solid fa-phone px-3"></i>(41) 99804-9907</p>
+      <p><i class="fa-solid fa-location-dot px-3"></i>R. Graciliano Ramos, 591 <br /> Guarani, Colombo</p>
     </div>
     <img src="./imagemBolhas.png" class="img-background-bubbles" alt="">
   </footer>
