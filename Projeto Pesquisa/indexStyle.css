@@ -397,7 +397,7 @@ section {
   color: white;
 }
 
-/* media screen mobile até 400px */
+/* media screen mobile até 460px */
 
 @media (max-width: 460px) {
   section {
@@ -582,6 +582,10 @@ section {
     left: 120px;
   }
 }
+
+
+/* desktop a partir de 1480*/
+
 
 @media (min-width: 1480px) {
   .container-home {
