@@ -28,7 +28,7 @@ nav {
 
 .logo {
   width: 170px;
-  margin: 20%;
+  margin: 10%;
 }
 
 .menu {
@@ -288,6 +288,7 @@ section {
   height: 600px;
   object-fit: cover;
   object-position: 40% 58%;
+
 }
 .text-organizer-machine-o {
   font-family: "Montserrat", sans-serif;
@@ -361,7 +362,7 @@ section {
   margin: 0px 200px 100px;
   font-family: "Montserrat", sans-serif;
   color: white;
-  font-size: 60px;
+  font-size: 0px;
 }
 
 .img-instagram {
@@ -394,7 +395,7 @@ section {
   position: relative;
   top: 300px;
   font-size: 20px;
-  color: white;
+  color: rgb(148, 28, 28);
 }
 
 /* media screen mobile até 460px */
@@ -828,12 +829,15 @@ section {
     font-family: "Montserrat", sans-serif;
     color: #044b72;
     font-size: 25px;
+    margin-left: -15px;
+    
   }
   .text-organizer-machine-p {
     margin-top: 30px;
     font-family: "Montserrat", sans-serif;
     color: #044b72;
     font-size: 18px;
+    margin-left: -15px;
   }
 
   /* styles visitas*/
@@ -853,7 +857,7 @@ section {
     display: flex;
     justify-content: flex-end;
     position: relative;
-    right: 500px;
+    right: 530px;
     bottom: 200px;
     font-family: "Montserrat", sans-serif;
     color: white;
@@ -920,7 +924,7 @@ section {
   .logo-img {
     position: relative;
     width: 170px;
-    top: 160px;
+    top: 200px;
     left: 910px;
   }
   .container-info {
