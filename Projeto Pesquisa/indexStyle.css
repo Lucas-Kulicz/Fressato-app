@@ -103,7 +103,7 @@ section {
   object-fit: contain;
 }
 .text-organizer-about {
-  margin-left: 20%;
+  margin-left: 22%;
   margin-top: 8%;
   margin-bottom: 2%;
   font-family: "Montserrat", sans-serif;
@@ -111,7 +111,7 @@ section {
   font-size: 60px;
 }
 .text-organizer-about-p {
-  margin-left: 20%;
+  margin-left: 23%;
   font-family: "Montserrat", sans-serif;
   color: #044b72;
   font-size: 20px;
@@ -294,12 +294,14 @@ section {
   font-family: "Montserrat", sans-serif;
   color: #044b72;
   font-size: 25px;
+  margin-left: -3%;
 }
 .text-organizer-machine-p {
   margin-top: 30px;
   font-family: "Montserrat", sans-serif;
   color: #044b72;
   font-size: 18px;
+  margin-left: -3%;
 }
 
 /* styles visitas*/
@@ -386,7 +388,7 @@ section {
 .logo-img {
   position: relative;
   width: 170px;
-  top: 160px;
+  top: 180px;
   left: 670px;
 }
 .container-info {
@@ -395,7 +397,7 @@ section {
   position: relative;
   top: 300px;
   font-size: 20px;
-  color: rgb(148, 28, 28);
+  color: rgb(255, 255, 255);
 }
 
 /* media screen mobile até 460px */
